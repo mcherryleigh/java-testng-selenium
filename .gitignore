@@ -1,0 +1,5 @@
+# VScode - remove when standards config/plugins are desired
+*.workspace
+
+# maven artifacts
+target
