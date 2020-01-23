@@ -7,7 +7,10 @@ public class Page {
   protected WebDriver driver;
   
   public Page(WebDriver driver) {
+    // Things from dependencies
     this.driver = driver;
+
+    // Elements from this page
   }
 
   public void navigate(String url) {
